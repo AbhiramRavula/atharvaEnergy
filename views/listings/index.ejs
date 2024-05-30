@@ -1,0 +1,26 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <h3 class="text-center fw-bold" >Our Services </h3>
+     <!-- <ul>
+            <%// for( let listing of allListings) { %>
+                <a href="/listings/<%= // listing.id %>"><li>  <%=// listing.title %> </li></a>
+         <%// } %> 
+     </ul> -->
+    
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <% for( let listing of allListings) { %>
+        <div class="col">
+        <div class="card h-100">
+          <img src="<%= listing.image %>" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="/listings/<%= listing.id %>">
+            <h5 class="card-title"><%= listing.title %></h5>
+        </a>
+            <p class="card-text"><%= listing.description %></p>  
+        </div>
+          </div>
+        </div>
+        <% } %> 
+        <div>
+        </div>
+</body>
