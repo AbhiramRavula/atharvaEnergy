@@ -1,2 +1,4 @@
 # atharvaEnergy
- Atharva Energy copanies website using ejs, monogDB , bootstrap etc
+ Atharva Energy companies website using ejs, monogDB, bootstrap etc
+ Still in the making.
+ 
