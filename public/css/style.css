@@ -2,7 +2,7 @@
 
 body{
     background-color: black ;
-    color: blueviolet;
+    color: blueviolet !important;
 }
 
 /* .hero-section {
@@ -13,12 +13,12 @@ body{
 
 /* footer */
 
-    .f-info-links a {
+    /* .f-info-links a {
         text-decoration: none;
         color: #222;
     }
 footer{
     background-color: black !important;
-}
+} */
 
 

@@ -80,6 +80,11 @@ app.delete("/listings/:id", async(req,res) => {
   res.redirect("/listings");
 });
 
+//Contact Route 
+app.get("/contact", async (req, res)=> {
+  res.render("listings/contact_us.ejs");
+});
+
 // app.get("/testListing",async (req,res) => {
 //   let sampleListing = new Listing({
 //     title: "Test Listing",
